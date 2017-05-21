@@ -1,0 +1,18 @@
+﻿TODO:
+
+1. COMPLETE How to wire-up the selection of the current tab item with MVVM ?
+
+2. Start designing the text-to-filename algorithms.
+
+3. Refresh button & checkbox to be synced correctly
+4. COMPLETE Get rid of the parameter in DeletionMethod.GetFilenames(string s)
+
+5. Look at Nunit testing & testrunner
+6. Highlighting in TextBox possible?
+7. Look at moving the TabItem into a seperate DLL as a seperate control.
+8. SelectionMode=Single on the Tab Control ?
+
+9.	Possibly change DeletionMethods to an observableDictionary? (with each plug-in containing a unique ID, and events from each pluch send up parameters (instead of the root window keeping a 'current index' ?))
+		Need to look at the feasibility of this.
+
+		10. Change RaisePropertyChanged event NOT to have strings. Also check the other related projects.
